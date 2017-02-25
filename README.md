@@ -3,9 +3,11 @@
 
 ###usage
 go to /tools/config.go
+
 input your config infomation
+
 ```
-  outTradeNo := "creat your out trade no"
+  	outTradeNo := "creat your out trade no"
 	charge := new(pay.Charge)
 	charge.MoneyFee = totalFee
 	charge.Describe = "describe"
