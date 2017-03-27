@@ -1,7 +1,7 @@
 package pay
 
 import (
-	"alipay/tools"
+	"alipay-go-sdk/tools"
 	"crypto"
 	"crypto/rand"
 	"crypto/rsa"
