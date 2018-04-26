@@ -1,12 +1,12 @@
 # alipay-go-sdk
 支付宝支付 新版 go sdk
 
-###usage
+### usage
 go to /tools/config.go
 
 input your config infomation
 
-```
+```golang
   	outTradeNo := "creat your out trade no"
 	charge := new(pay.Charge)
 	charge.MoneyFee = totalFee

@@ -1,7 +1,6 @@
 package pay
 
 import (
-	"alipay-go-sdk/tools"
 	"crypto"
 	"crypto/rand"
 	"crypto/rsa"
@@ -14,6 +13,8 @@ import (
 	"sort"
 	"strings"
 	"time"
+
+	"github.com/willxm/alipay-go-sdk/tools"
 )
 
 func init() {
